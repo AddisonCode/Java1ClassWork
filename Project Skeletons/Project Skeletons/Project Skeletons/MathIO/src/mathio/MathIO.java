@@ -13,7 +13,9 @@ public class MathIO {
         
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILENAME))) {
             //here is where you should put your numbers
-            String line1 = "";
+            String line1 = "1.2\n2.3\n4.3\n23.1\n13.34\n";
+            
+            
 
             //here is where you should write your numbers to the file
             writer.write(line1);

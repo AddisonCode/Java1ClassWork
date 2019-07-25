@@ -4,9 +4,12 @@ package car;
 
 public class Car {
 
-   String make, model;
-   int year;
+   String make, model, nickName, color;
+   int year, yearsOwned;
    boolean isOn;
+   double miles;
+   
+   
    
    public Car(String newMake, String newModel, int newYear) {
        make=newMake;

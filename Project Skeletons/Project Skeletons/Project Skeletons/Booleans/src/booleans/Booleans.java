@@ -24,7 +24,7 @@ public class Booleans {
         
         System.out.println( s1.compareTo(s2) );
         System.out.println( s2.equals(s3) );
-        
+                        
     }
     
     public static String s1 = "Good Morning!"; 
